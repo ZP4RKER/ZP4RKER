@@ -1,0 +1,255 @@
+body {
+    background: url(../images/background.jpg) no-repeat fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+#background {
+    width: 100%;
+    height: 100%;
+    background-color: #40b2e5;
+    opacity: 0.7;
+    position: fixed
+}
+#header-container {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0
+}
+#trademark {
+    display: block;
+    height: 50px;
+    margin: 0 auto 0 auto;
+}
+
+#title {
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+#title h1 {
+    color: #393939;
+    font-family: sans-serif;
+    font-weight: lighter;
+    width: 500px;
+    border-bottom: #ccc solid 1px;
+    margin: 0 auto 0 auto;
+    font-size: 60px;
+}
+#title h4 {
+    color: #FFF;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+#content {
+    width: 100%;
+    position: absolute;
+    top: 100%;
+}
+
+#scrolldown {
+    width: 150px;
+    height: 80px;
+    background-color: #393939;
+    position: absolute;
+    bottom: 0;
+    right: 2%;
+    z-index: 100;
+    cursor: pointer;
+}
+#scrolldown img, #scrollup img {
+    display: block;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 15px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+#scrolldown:hover > img {
+    top: 25px;
+}
+#scrollup:hover > img {
+    top: 5px;
+}
+
+#scrollup {
+    width: 150px;
+    height: 80px;
+    background-color: #393939;
+    position: absolute;
+    top: 260px;
+    right: 2%;
+    z-index: 100;
+    cursor: pointer;
+}
+
+#navigation {
+    position: absolute;
+    right: 2%;
+    top: -16px;
+    z-index: 10000;
+}
+#navigation ul {
+    list-style: none;
+}
+#navigation ul li {
+    width: 150px;
+    height: 50px;
+    background-color: #393939;
+    text-align: center;
+    padding-top: 15px;
+    cursor: pointer
+}
+#navigation ul li.active {
+    background: #40b2e5;
+}
+#navigation ul li a {
+    text-decoration: none;
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+#container {
+    width: 100%;
+}
+#profile table {
+    margin-left: 1%;
+    width: 80%;
+    vertical-align: middle;
+}
+#profile table tr td {
+    text-align: center;
+    align-content: center;
+    width: 40%
+}
+#profile table tr td h3 {
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: #40b2e5;
+    font-size: 35px;
+}
+#profile table tr td h4 {
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: #393939;
+    font-size: 25px;
+}
+#profile table tr td p {
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: #393939;
+    font-size: 17px;
+}
+#container #header {
+    margin: 0 auto 0 auto;
+    text-align: center;
+    width: 600px;
+    height: 120px;
+    padding-top: 30px;
+    border-bottom: solid #CCC 1px;
+}
+#container #header h2 {
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: #40b2e5;
+    font-size: 55px;
+}
+#profile, #projects {
+    width: 100%;
+    background-color: #FFF;
+    height: 100vh;
+}
+#abilities, #contact {
+    width: 100%;
+    height: 100vh;
+    background-color: #f4f0de;
+    padding-bottom: 20px
+}
+#abilities #container table {
+    margin: 0 auto 0 auto;
+}
+#abilities #container table tr td h3 {
+    color: #393939;
+    font-family: sans-serif;
+    font-weight: lighter
+}
+#abilities #container table tr td {
+    text-align: center;
+}
+#abilities #container table tr td #progress-bar {
+    display: block;
+    height: 20px;
+    width: 500px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 5px 5px 25px #000;
+}
+#abilities #container #progress-bar div {
+    height: 100%;
+    border-radius: 5px;
+    background-color: #40b2e5;
+}
+#hprogress {
+    width: 85%;
+}
+#cprogress {
+    width: 80%;
+}
+#jsprogress {
+    width: 75%;
+}
+#jqprogress {
+    width: 90%;
+}
+#pprogress {
+    width: 60%;
+}
+
+#projects table {
+    width: 60%;
+    margin: 7% auto 0 auto;
+}
+#projects table tr td {
+    cursor: pointer;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+#projects table tr td:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+#projects table tr td.left {
+    float: left;
+}
+#projects table tr td.right {
+    float: right;
+}
+#projects table tr td div {
+    width: 273.2px;
+    height: 153.6px;
+    box-shadow: 5px 5px 25px #000;
+}
+#proj1 {
+    background: url(../images/old%20personal.png);
+    background-size: cover;
+}
+#proj2 {
+    background: url(../images/fifa%20beasts.png);
+    background-size: cover;
+}
+#proj3 {
+    background: url(../images/the%20universe.png);
+    background-size: cover;
+}
+#proj4 {
+    background: url(../images/moreprojects.png);
+    background-size: cover;
+}
