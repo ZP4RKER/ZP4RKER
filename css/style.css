@@ -20,11 +20,6 @@ body {
     position: fixed;
     top: 0
 }
-#trademark {
-    display: block;
-    height: 50px;
-    margin: 0 auto 0 auto;
-}
 
 #title {
     text-align: center;
